@@ -1,0 +1,72 @@
+.footer__section{
+    height: fit-content;
+    padding: 10px 25px 0;
+    margin-top: 10px;
+    background: var(--primary-color)
+}
+
+.container-fluid{
+    margin: auto 20px;
+}
+
+.container-fluid .row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2;
+}
+
+/* .container-fluid .row .col-lg-4{
+    border: 2px solid;
+} */
+
+.row .disclammer, .sure__links, .social__media{
+    font-size: .9rem;
+    font-family: cursive;
+    padding: 10px 20px;
+}
+
+.row .disclammer .disclammer__header, .sure__links .sure__links--header, .social__media--header{
+    font-weight: bold;
+    font-size: 1rem;
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.row .disclammer .disclammer__para{
+    font-family: sans-serif;
+}
+
+.row .sure__links{
+    padding: 10px 20px;
+}
+
+.row .sure__links nav ul{
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.row .sure__links nav ul li{
+    line-height: 3;
+}
+
+/* Bottom Footer */
+footer {
+    background: #3e1479;
+    text-align: center;
+}
+
+footer p{
+    padding: 10px 25px 0;
+    font-size: 1rem;
+    color: lightgray;
+}
+
+footer p a{
+    color: lime;
+}
+
+footer p a:hover{
+    color: lightgray;
+}

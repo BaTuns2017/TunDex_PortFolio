@@ -1,0 +1,31 @@
+/* ============= Import Styling ===================== */
+@import url(about.css);
+@import url(contact.css);
+@import url(service.css);
+@import url(style.css);
+@import url(header.css);
+@import url(footer.css);
+@import url(home.css);
+
+/* Default styling */
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+:root{
+    --primary-color: #19013b;
+    --secondary-color: #dc143c;
+    --tertiary-color: #ffffff;
+    --background-color: rgb(85, 36, 139);
+}
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: var(--background-color);
+    color: var(--tertiary-color);
+}
